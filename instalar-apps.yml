@@ -1,0 +1,13 @@
+---
+- name: Instalar htop y cowsay
+  hosts: all
+  become: yes
+ 
+  tasks:
+    - name: Instalar paquetes
+      apt:
+        name:
+          - htop
+          - cowsay
+        state: present
+        update_cache: yes

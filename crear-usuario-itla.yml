@@ -1,0 +1,13 @@
+---
+- name: Crear usuario itla
+  hosts: all
+  become: yes
+ 
+  tasks:
+ 
+    - name: Crear usuario itla
+      user:
+        name: itla
+        password: "{{ 'itla' | password_hash('sha512') }}"
+        shell: /bin/bash
+        state: present

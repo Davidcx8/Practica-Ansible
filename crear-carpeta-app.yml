@@ -1,0 +1,11 @@
+---
+- name: Crear carpeta app
+  hosts: all
+  become: yes
+ 
+  tasks:
+    - name: Crear directorio app
+      file:
+        path: /app
+        state: directory
+        mode: '0755'

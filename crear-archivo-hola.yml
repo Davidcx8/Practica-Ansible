@@ -1,0 +1,11 @@
+---
+- name: Crear archivo hola.txt en /app
+  hosts: all
+  become: yes
+ 
+  tasks:
+    - name: Crear archivo hola.txt
+      copy:
+        dest: /app/hola.txt
+        content: "Hola desde Ansible\n"
+        mode: '0644'
