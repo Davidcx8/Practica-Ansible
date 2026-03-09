@@ -81,13 +81,13 @@ Al finalizar la ejecución del playbook principal:
 ## Evidencias
 
 ### Evidencia 1
-![Evidencia 1](./Screenshot%202026-03-07%20215453.png)
+![Evidencia 1](./evidencias/01-docker-compose-contenedores-activos.png)
 
 ### Evidencia 2
-![Evidencia 2](./Screenshot%202026-03-09%20131346.png)
+![Evidencia 2](./evidencias/02-ansible-playbook-ejecucion.png)
 
 ### Evidencia 3
-![Evidencia 3](./Screenshot%202026-03-09%20132716.png)
+![Evidencia 3](./evidencias/03-verificacion-directorio-y-archivo.png)
 
 ### Evidencia 4
-![Evidencia 4](./Screenshot%202026-03-09%20133658.png)
+![Evidencia 4](./evidencias/04-verificacion-paquetes-instalados.png)
